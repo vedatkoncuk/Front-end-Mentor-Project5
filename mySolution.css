@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f2ebe3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 9rem auto;
+  height: max-content;
+  width: max-content;
+}
+
+.main-img{
+  width: 250px;
+  height: 380px;
+  padding: 0;
+}
+
+.informations{
+  display: block;
+  margin-top: 25px;
+  margin-left: 24px;
+  
+}
+
+.product-title{
+  font-family: "Fraunces", serif;
+  width: 320px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+p{
+  color: #6c7289;
+  line-height: 24px;
+  width: 260px;
+}
