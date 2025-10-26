@@ -14,32 +14,85 @@ body{
   display: flex;
   justify-content: center;
   margin: 9rem auto;
-  height: max-content;
+  height: 460px;
   width: max-content;
+  border-radius: 11px 10px 10px 11px;
 }
 
 .main-img{
-  width: 250px;
-  height: 380px;
+  width: 310px;
+  height: 460px;
   padding: 0;
+  border-radius: 10px 0 0 10px;
 }
 
 .informations{
   display: block;
   margin-top: 25px;
-  margin-left: 24px;
+  margin-left: 26px;
   
+}
+
+.product-name{
+  margin-bottom: 16px;
+  color: #6c7289;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .product-title{
   font-family: "Fraunces", serif;
-  width: 320px;
+  width: 300px;
   font-size: 3rem;
   font-weight: 600;
+  line-height: 40px;
 }
 
 p{
   color: #6c7289;
   line-height: 24px;
   width: 260px;
+  margin-top: 24px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.price{
+  color: #3c8067;
+  font-family: "Fraunces", serif;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+span{
+  margin-left: 28px;
+  font-size: small;
+  text-decoration: line-through;
+  color: #6c7289;
+}
+
+button{
+  margin-bottom: 18px;
+  width: 260px;
+  height: 46px;
+  background-color: #3c8067;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: medium;
+  margin-bottom: 30px;
+   margin-left: 6px;
+}
+
+.shop-icon{
+  margin-right: 10px;
+}
+
+@media screen and  (max-widht:575px) {
+    .main-img{
+      display: none;
+    }
 }
